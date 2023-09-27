@@ -1,7 +1,7 @@
 # created with vite and react 
 <br>
 let marks ={m:22,p:55,e:99}
-<All usere="naveen" ide="99" mark={marks} /> //this is custom tag created with react and vite  
+//<All usere="naveen" ide="99" mark={marks} /> //this is custom tag created with react and vite  
 <br>
   this tags consists of properties with usere ,ide ,and mark ---object
 <br>
@@ -12,10 +12,10 @@ let marks ={m:22,p:55,e:99}
   function All(props){
 
 return (
-    <>
-    <p>my name is {props.usere}</p>
-    <p>my id is {props.ide}</p>
-    <p>my marks are {props.mark.e} </p>
+    //<>
+    //<p>my name is {props.usere}</p>
+    //<p>my id is {props.ide}</p>
+    //<p>my marks are {props.mark.e} </p>
     </>
 
 )
