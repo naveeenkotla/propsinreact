@@ -1,8 +1,30 @@
-# React + Vite
+# created with vite and react 
+<br>
+let marks ={m:22,p:55,e:99}
+<All usere="naveen" ide="99" mark={marks} /> //this is custom tag created with react and vite  
+<br>
+  this tags consists of properties with usere ,ide ,and mark ---object
+<br>
+  //objects paased as properties in the above all tag
+<br>
+ // at All function in all.jsx
+<br>
+  function All(props){
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+return (
+    <>
+    <p>my name is {props.usere}</p>
+    <p>my id is {props.ide}</p>
+    <p>my marks are {props.mark.e} </p>
+    </>
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+)
+}
+export default All
+<br>
+props is predefined key word in react for properties 
+<br>
+props.usere,props.ide ,props.mark.e are ways to retrive the  properties from the tag <All usere="naveen" ide="99" mark={marks} /> and marks is marks={m:22,p:55,e:99}
+<br>
+<br>
+<br>
